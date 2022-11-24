@@ -1,5 +1,6 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
+import Typed from "react-typed";
 
 const Home = () => {
   return (
@@ -11,7 +12,7 @@ const Home = () => {
           Ron Busnardo
         </h1>
         <h2 className="text-4xl sm:text-7xl font-bold text-gray-500">
-          Full Stack Developer
+          <Typed strings={[" Full Stack Developer"]} typeSpeed={100} />
         </h2>
         <p className="text-gray-500 py-4 max-w-[700px]">
           I'm a full stack developer specializing in building exceptional

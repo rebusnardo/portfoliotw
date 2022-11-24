@@ -44,6 +44,12 @@ const Navbar = () => {
         </li>
         <li>
           {" "}
+          <Link to="military" smooth={true} duration={500}>
+            Military Expierence
+          </Link>
+        </li>
+        <li>
+          {" "}
           <Link to="contact" smooth={true} duration={500}>
             Contact
           </Link>
@@ -89,6 +95,17 @@ const Navbar = () => {
         </li>
         <li className="py-6 text-4xl">
           {" "}
+          <Link
+            onClick={handleClick}
+            to="military"
+            smooth={true}
+            duration={500}
+          >
+            Military Expierence
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          {" "}
           <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
             Contact
           </Link>
@@ -117,7 +134,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300  bg-yellow-600">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="mailto:ron.busnardo@gmail.com"
             >
               Email <HiOutlineMail size={30} />
             </a>
