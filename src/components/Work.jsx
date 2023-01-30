@@ -1,5 +1,7 @@
 import React from "react";
-import Project from "../assets/prj.jpg";
+import Project1 from "../assets/chatgpt.png";
+import Project2 from "../assets/online-store.png";
+import Project from "../assets/project.jpeg";
 
 const Work = () => {
   return (
@@ -16,22 +18,22 @@ const Work = () => {
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
             {/* Grid Item */}
             <div
-              style={{ backgroundImage: `url(${Project})` }}
+              style={{ backgroundImage: `url(${Project1})` }}
               className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center 
                mx-auto content-div"
             >
               {/* Hover Effects */}
               <div className="opacity-0 group-hover:opacity-100">
                 <span className="text-2xl font-bold text-white tracking-wider">
-                  React JS App
+                  Chat GPT2.0
                 </span>
                 <div className="pt-8 text-center">
-                  <a href="/">
+                  <a href="https://client-chatgpt.vercel.app/">
                     <button className="text-center rounded-lg px-4 py-3  m-2 bg-white text-gray-700 font-bold text-lg">
                       Demo
                     </button>
                   </a>
-                  <a href="/">
+                  <a href="https://github.com/rebusnardo/client-chatgpt">
                     <button className="text-center rounded-lg px-4 py-3  m-2 bg-white text-gray-700 font-bold text-lg">
                       Code
                     </button>
@@ -40,47 +42,23 @@ const Work = () => {
               </div>
             </div>
             <div
-              style={{ backgroundImage: `url(${Project})` }}
+              style={{ backgroundImage: `url(${Project2})` }}
               className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center 
                mx-auto content-div"
             >
               {/* Hover Effects */}
               <div className="opacity-0 group-hover:opacity-100">
                 <span className="text-2xl font-bold text-white tracking-wider">
-                  React JS App
+                  Online Store
                 </span>
                 <div className="pt-8 text-center">
-                  <a href="/">
+                  <a href="https://velvety-cannoli-2a136e.netlify.app/">
                     <button className="text-center rounded-lg px-4 py-3  m-2 bg-white text-gray-700 font-bold text-lg">
                       Demo
                     </button>
                   </a>
-                  <a href="/">
+                  <a href="https://github.com/rebusnardo/ZTM-Online-Store">
                     <button className="text-center rounded-lg px-4 py-3  m-2 bg-white text-gray-700 font-bold text-lg">
-                      Code
-                    </button>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div
-              style={{ backgroundImage: `url(${Project})` }}
-              className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center 
-               mx-auto content-div"
-            >
-              {/* Hover Effects */}
-              <div className="opacity-0 group-hover:opacity-100">
-                <span className="text-2xl font-bold text-white tracking-wider">
-                  React JS App
-                </span>
-                <div className="pt-8 text-center">
-                  <a href="/">
-                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                      Demo
-                    </button>
-                  </a>
-                  <a href="/">
-                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                       Code
                     </button>
                   </a>
@@ -123,6 +101,30 @@ const Work = () => {
                 </span>
                 <div className="pt-8 text-center">
                   <a href="/">
+                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                      Demo
+                    </button>
+                  </a>
+                  <a href="/">
+                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                      Code
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              style={{ backgroundImage: `url(${Project})` }}
+              className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center 
+               mx-auto content-div"
+            >
+              {/* Hover Effects */}
+              <div className="opacity-0 group-hover:opacity-100">
+                <span className="text-2xl font-bold text-white tracking-wider">
+                  React JS App
+                </span>
+                <div className="pt-8 text-center">
+                  <a href="https://client-chatgpt.vercel.app/">
                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                       Demo
                     </button>
